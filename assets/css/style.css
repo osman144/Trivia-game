@@ -4,11 +4,11 @@ b.ody{
     background-size: cover;
 }
 
-.back{
+.stuff{
     background-color: rgb(164, 208, 216);
     display: block;
-    height:400px;
-    margin-top:120px;
+    height:550px;
+    margin-top:50px;
     border-radius:18px;
 }
 
@@ -19,8 +19,8 @@ header{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-button{
-    margin-left:300px;
+.button{
+    margin-left:250px;
     height:200px;
     width:200px;
     border-radius: 25px;
@@ -29,3 +29,16 @@ button{
     background-color:papayawhip;
     border:30px crimson;
 }
+
+.questions{
+    text-align: center;
+    font-size:24px;
+}
+
+input[type="radio"]{
+    margin: 0 100px 0 100px;
+  }
+
+  time{
+      color:chocolate;
+  }

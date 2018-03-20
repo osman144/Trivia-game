@@ -9,24 +9,59 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="./assets/javascript/trivia.js"></script>
 </head>
 <body>
     <main class="container">
         <div style="max-width: 800px; margin:0 auto">
-            <div class="back">
-                <div class="row">
-                    <div class="col-md-12">
-                        <header>Pop Culture Trivia</header>
+            <!---Start message-->
+
+            <div class="stuff">
+                <div id="start">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <header>Pop Culture Trivia</header>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <button class="button">Click to begin</button>
+                        </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <a href="index.html"><button>Click to begin</button></a>
+
+                <!--Game-->
+
+                <div id="game">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="questions">Time remaining: <time class="counter"></time> seconds</div>
+                        </div>
                     </div>
+                </div>
+            
+                <!--Finish-->
+                <div id="finish">All Done!
+                    <div class="right">Correct Answers: </div>
+                    <div class="wrong">Incorrect Answers:</div>
+                    <div class="unanswered">Unanswered:</div>
                 </div>
             </div>
+
         </div>
     </main>
-    
+   
+
 </body>
 </html>
