@@ -25,6 +25,8 @@ function game(){
         question1: ['questionA','answerA','answerB','answerC'],
         question2: ['questionB','answerE','answerF','answerG'],
         question3: ['questionC','answerH','answerI','answerJ'],
+        question4: ['questionD','answerK','answerL','answerM'],
+        question5: ['questionE','answerN','answerO','answerP'],
     };
 
     //Time 
@@ -54,7 +56,28 @@ function game(){
         '<input type="radio" name="question3" value="answer8" style="margin-left:100px;">'+trivia.question3[2]+'</input>').append(
             '<input type="radio" name="question3" value="answer9" style="margin-left:100px;">'+trivia.question3[3]+'</input>');
 
+    //Question 4
+    $('.questions').append('<div style="margin-top:35px;">'+trivia.question4[0]+'</div>')
 
+    //Options 4
+    $('.questions').append('<input type="radio" name="question4" value="answer10"> '+
+    trivia.question4[1] + '</input>').append(
+        '<input type="radio" name="question4" value="answer11" style="margin-left:100px;">'+trivia.question4[2]+'</input>').append(
+            '<input type="radio" name="question4" value="answer12" style="margin-left:100px;">'+trivia.question4[3]+'</input>');
+
+
+    //Question 5
+    $('.questions').append('<div style="margin-top:35px;">'+trivia.question5[0]+'</div>')
+
+    //Options 5
+    $('.questions').append('<input type="radio" name="question5" value="answer13"> '+
+    trivia.question5[1] + '</input>').append(
+        '<input type="radio" name="question5" value="answer14" style="margin-left:100px;">'+trivia.question5[2]+'</input>').append(
+            '<input type="radio" name="question5" value="answer15" style="margin-left:100px;">'+trivia.question5[3]+'</input>');
+
+
+
+    
     //Counter
     
     $('.counter').text('100')
