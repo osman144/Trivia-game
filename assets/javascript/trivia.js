@@ -27,6 +27,7 @@ function game(){
         question3: ['questionC','answerH','answerI','answerJ'],
         question4: ['questionD','answerK','answerL','answerM'],
         question5: ['questionE','answerN','answerO','answerP'],
+        question6: ['questionF','answerQ','answerR','answerS']
     };
 
     //Time 
