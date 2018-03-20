@@ -93,7 +93,6 @@ function game(){
         }
     
         //Question3
-    s
         if ($('input[type="radio"][name=question3]:checked').val() == "answer7") {
             guessedRight++;
         }else if($('input[type="radio"][name=question3]:checked').val() != "answer7"){
