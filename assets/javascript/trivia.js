@@ -76,7 +76,8 @@ function game(){
         //Question1 
         if ($('input[type="radio"][name=question1]:checked').val() == "answer1") {
             guessedRight++;
-        }else if($('input[type="radio"][name=question1]:checked').val() != "answer1"){
+        }else if($('input[type="radio"][name=question1]:checked').val() == "answer2" || 
+        $('input[type="radio"][name=question1]:checked').val() =="answer3"){
             guessedWrong++;
         }else{
             unanswered++;
@@ -86,7 +87,8 @@ function game(){
     
         if ($('input[type="radio"][name=question2]:checked').val() == "answer4") {
             guessedRight++;
-        }else if($('input[type="radio"][name=question2]:checked').val() != "answer4"){
+        }else if($('input[type="radio"][name=question2]:checked').val() == "answer5" ||
+        $('input[type="radio"][name=question2]:checked').val() == "answer6"){
             guessedWrong++;
         }else{
             unanswered++;
@@ -95,11 +97,14 @@ function game(){
         //Question3
         if ($('input[type="radio"][name=question3]:checked').val() == "answer7") {
             guessedRight++;
-        }else if($('input[type="radio"][name=question3]:checked').val() != "answer7"){
+        }else if($('input[type="radio"][name=question3]:checked').val() == "answer8" || 
+        $('input[type="radio"][name=question3]:checked').val() == "answer9"){
             guessedWrong++;
         }else{
             unanswered++;
         }
+
+        //Question 4
         
     }
 
